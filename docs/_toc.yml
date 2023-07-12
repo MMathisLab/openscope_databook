@@ -10,7 +10,6 @@ parts:
   - file: basics/get_dandiset_metadata.ipynb
 - caption: Visualizing NWB Files
   chapters:
-  - file: visualization/visualize_2p_raw.ipynb
   - file: visualization/visualize_neuropixel_probes.ipynb
   - file: visualization/visualize_unit_metrics.ipynb
   - file: visualization/visualize_lfp_responses.ipynb
@@ -26,6 +25,7 @@ parts:
 - caption: Replicating Figures
   - file: cred_assign_figures.ipynb
 - caption: Embargoed Datasets
+  - file: visualization/visualize_2p_raw.ipynb
   - file: embargoed/visualize_behavior.ipynb
   - file: embargoed/test_2p_responses_embargoed.ipynb
   - file: embargoed/cell_matching.ipynb
